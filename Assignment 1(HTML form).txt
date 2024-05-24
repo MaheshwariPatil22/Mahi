@@ -1,0 +1,95 @@
+<!--**Assignment 2: HTML Forms**-->
+<!--Create an HTML form with the following elements:-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Student Regestration From</title>
+<meta charset="UTF-8">
+<meta name="description" content="Student Regestration From">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<!--Input fields:
+Full Name (text input)
+Email Address (email input)
+Age (number input)-->
+<body>
+<h1>Student Regestration Form</h1>
+<form action="mona.html" method="post">
+<div>
+<label for="full name">Full Name</label>
+<input type="text" id="fullname" name="fullname" placeholder="fullname"/>
+</div>
+<br>
+<div>
+<label for="Email Address">Email Address</label>
+<input type="text" id="email" name="email address" placeholder="email"/>
+</div>
+<br>
+<div>
+<label for="age">Age</label>
+<input type="number" id="age" name="age" placeholder="age" min="10" max="30"/>
+</div>
+<br>
+
+<!--Radio buttons:
+Choose your preferred programming language (JavaScript, Python, Java).-->
+<div>
+<p>Select your programming language*</p>
+<label for="Python">Python</label>
+<input type="radio" id="Python" name="Python" value="Python"/>
+
+<label for="JavaScript"> JavaScript</label>
+<input type="radio" id="JavaScript" name="JavaScript" value="JavaScript"/> 
+
+<label for="Java">Java</label>
+<input type="radio" id="Java" name="Java" value="Java"/>
+</div>
+<br>
+
+<!--Checkboxes:
+Select at least two of your favorite foods.-->
+<div>
+<p>Select your favorite foods*</p>
+<label for="Panipuri">Panipuri</label>
+<input type="checkbox" id="Panipuri" name="Panipuri"/>
+
+<label for="Puran poli">Puran poli</label>
+<input type="checkbox" id="Puran poli" name="Puran poli"/>
+</div>
+<br>
+
+<!--Dropdown menu:
+Select your level of proficiency in HTML (Beginner, Intermediate, Advanced).-->
+<div>
+<p>Select your level of proficiency in HTML*</p>
+<!--<label for="HTML Program">HTML Program:</label>-->
+  <select name="HTML Program" id="HTML Program">
+    <option value="Beginner">Beginner</option>
+    <option value="Intermediate">Intermediate</option>
+    <option value="Advanced">Advanced</option>
+  </select>
+  </div>
+ <br>
+
+<!--Textarea:
+Write a brief message about why you're interested in web development.-->
+<div>
+<textarea id="web development" name="web development" rows="4" cols="50">
+web developers is their passion for learning new things and keeping up with the latest trends and technologies in the industry. Web development is constantly evolving and changing, and web developers need to adapt and update their skills and knowledge accordingly.
+</textarea>
+</div>
+<br>
+
+<!--Submit button:
+Create a button labeled "Submit" to submit the form.-->
+<div>
+<input type="submit" value="Submit"/>
+</div>
+
+</form>
+</body>
+</html> 
+                                      <!--**********************-->
